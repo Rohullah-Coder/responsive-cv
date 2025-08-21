@@ -580,6 +580,7 @@ span {
     transition: 0.3s ease-in-out;
 }
 .footer ul{
+    font-size: 1rem;
      text-align: center;
     color:var(--main-color);
     line-height: 2;
