@@ -1,13 +1,13 @@
 let menuicon =document.querySelector('#menuicon');
-let navbar = document/querySelector('.navbar');
+let navbar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
     window.onscroll = () => {
         sections.forEach(sec => {
             let top = window.scrollY;
-            let offset = sec.offsetop - 150;
-            let height = sec.offsetheight;
+            let offset = sec.offseTop - 150;
+            let height = sec.offsetHeight;
             let id = sec.getAttribute('id');
 
             if(top >= offset && top < offset + height){
@@ -21,7 +21,7 @@ let navLinks = document.querySelectorAll('header nav a');
     }
 
 
-menuIcon.onclick =()=>{
+menuicon.onclick =()=>{
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active');
 
