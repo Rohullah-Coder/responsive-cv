@@ -73,7 +73,7 @@ body {
     border-bottom: 3px solid var(--main-color);
 }
 
-#menu-icon {
+#menuicon {
     font-size: 3.6rem;
     color: var(--main-color);
     display: none;
@@ -641,7 +641,7 @@ span {
 }
 
 @media (max-width:895px){
-    #menu-icon{
+    #menuicon{
         display: block;
     }
     .navbar{
