@@ -11,17 +11,17 @@ let navLinks = document.querySelectorAll('header nav a');
             let id = sec.getAttribute('id');
 
             if(top >= offset && top < offset + height){
-                navLinks.forEach(links =>{
+                navLinks.forEach(links => {
                     links.classList.remove('active');
-                    document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                    document.querySelector('header nav a [href*=' + id + ' ]').classList.add('active')
                 })
             }
             
-        });
+        })
     }
 
 
-menuicon.onclick =()=>{
+menuicon.onclick = () => { 
     menuicon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
